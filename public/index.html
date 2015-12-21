@@ -29,93 +29,37 @@
 <script type="text/javascript" src="js/materialize.min.js"></script>
 
 
-<!--
-<div class"content"> 
+<div class="content">
+ 
 
-<img class="background-image" src="img/Plain-Black-Wallpaper.png">
 <div class="section-1">
-<div id="header" class="full-screen">
-    
-</div>
-</div>
 
+<nav class="navi">
+    <a> Hello</a>
+    <a> Me</a> 
+    <a> Skills Projects</a> 
+    <a> Experience</a> 
+    <a> Interests</a> 
+    <a> Contact </a> 
+    
+</nav>
+
+
+</div>
 
 <div class="section-2">
-    <p id="test" class="c"> test </p>
+   
+     a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a
+
+</div>
+
+
+
+
+
 </div>
 
 
 
-
-
-</div>
--->
-
-
-
-   <img src="images/background.jpg" class="background-image"/>
-
-        <div class="content">
-            
-            <div id="header" class="fullscreen header">
-                <div class="header-content">
-               
-                   
-                </div>
-                <div class="more">
-                    <a id="more" href="#" class="btn btn-circle"><i class="fa fa-angle-down animated"></i></a>
-                </div>
-            </div>
-
-           <div class="yellow "> pfsd</div>
-
-        </div>
-
-        <!--Import jQuery before materialize.js-->
-        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-        <script type="text/javascript" src="js/materialize.js"></script>
-        <script src="js/jquery.easing.min.js"></script>
-
-        <script>
-            $(document).ready(function() {
-                //$('#profile-circle').hover(showMore, showProfilePic);
-                /*$("#more").click(function() {
-                    $('html, body').animate({
-                        scrollTop: $("#slide1").offset().top
-                    }, 'slow');
-                });*/
-                // jQuery for page scrolling feature - requires jQuery Easing plugin
-                $(function() {
-                    $('#more').bind('click', function(event) {
-                        $('html, body').stop().animate({
-                            scrollTop: $("#slide1").offset().top
-                        }, 700, 'easeInOutExpo');
-                        event.preventDefault();
-                    });
-                   $('#nav-top').bind('click', function(event) {
-                        $('html, body').stop().animate({
-                            scrollTop: $("#header").offset().top
-                        }, 700, 'easeInOutExpo');
-                        event.preventDefault();
-                    });
-                    $('#nav-projects').bind('click', function(event) {
-                        $('html, body').stop().animate({
-                            scrollTop: $("#slide1").offset().top
-                        }, 700, 'easeInOutExpo');
-                        event.preventDefault();
-                    });
-                });
-            });  
-
-            function showMore() {
-                $('.active-circle').not('#profile-pic-2').stop().removeClass('active-circle');
-                $('#profile-pic-2').stop().addClass('active-circle');
-            }
-
-            function showProfilePic() {
-                $('.active-circle').not('#profile-pic-1').stop().removeClass('active-circle');
-                $('#profile-pic-1').stop().addClass('active-circle');                
-            }         
-        </script>
 </body>
 </html>
