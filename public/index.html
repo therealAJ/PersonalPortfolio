@@ -42,16 +42,23 @@
 
 <div class="section-1">
 
+<!--NAVBAR--> 
 
+<div class="navbar-fixed">
 <nav class="navi">
+  
     <a> Hello</a>
     <a> Me</a> 
     <a> Skills & Projects</a> 
     <a> Experience</a> 
     <a> Interests</a> 
     <a> Contact </a> 
-    
+  
 </nav>
+</div>
+
+<!--Typed.js-->
+
 
 
 
@@ -61,8 +68,54 @@
 <div class="section-2">
    
      a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a
+     
+     <script src="js/typed.js"></script>
+<script>
+    $(function(){
+        $(".element").typed({
+            strings: ["First sentence.", "Second sentence."],
+            typeSpeed: 0
+        });
+    });
+</script>
 
 </div>
+
+
+
+
+<!-- FOOTER --> 
+
+<footer class="page-footer blue">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text">Footer Content</h5>
+                <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Links</h5>
+                <ul>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            © Site Designed by Alex Jordache
+            <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+            </div>
+          </div>
+        </footer>
+
+
+
+
+
 
 
 
