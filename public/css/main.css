@@ -30,7 +30,7 @@ body {
 
 
 .navi { 
- 
+  z-index: 2; 
   width: 100%;
   list-style: none;
   background: transparent;
@@ -44,7 +44,7 @@ body {
   float: left; 
   width: 16.6666666%;
   box-sizing: border-box;
-  
+  font-family: 'Cabin', sans-serif;
   text-align: center;
   background: rgba(255, 20, 20, 0);
   -webkit-transition: all 0.4s;
