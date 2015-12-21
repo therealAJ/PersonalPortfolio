@@ -22,34 +22,38 @@ body {
     height: 100%;
     background-position: center;
     background-size: cover;
-    display: flex;
     justify-content: center;
     align-items: center;
+    background-color: black
 }
 
-.
 
-.navi {
+
+.navi { 
+ 
   width: 100%;
   list-style: none;
   background: transparent;
-  overflow: hidden;
-  z-index: 2; 
+
+ 
 }
-.navi li {
-  color: #222;
-  float: left;
-  width: 25%;
+.navi a {
+  font-size: 2.2em;
+  word-wrap: break-word;
+  color: white;
+  float: left; 
+  width: 16.6666666%;
   box-sizing: border-box;
-  padding: 20px;
+  
   text-align: center;
   background: rgba(255, 20, 20, 0);
   -webkit-transition: all 0.4s;
   -moz-transition: all 0.4s;
   -o-transition: all 0.4s;
   transition: all 0.4s;
+
 }
-.navi li:hover {
+.navi a:hover {
   background: #6464c8;
   color: #fff;
 }
