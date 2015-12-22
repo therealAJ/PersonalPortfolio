@@ -66,33 +66,30 @@
 
 <br><br><br><br><br><br><br><br><br><br>
 
-<h1 class="headline blue-text center"></h1>
-<h2 class="sub-headline blue-text center"></h2>
+<div class="center">
+<span class="headline white-text">  </span>
+</div>
+
+<!--<span class="sub-headline blue-text center"></span>-->
 
 
 <!--Typed.js-->
  <script src="js/typed.js" type="text/javascript"></script>
 <script>
+    
     $(function(){
         $(".headline").typed({
             strings: ['^2000 Hello! ^1000 My name is Alex Jordache.'],
-            typeSpeed: 30
+            typeSpeed: 30,
+           
+
         });
     });
     $(function(){
         $(".sub-headline").typed({
-            strings: ['^8000 I am a '],
+            strings: ['^8000 I am a student', 'a tech enthusiast', 'and a create coder'],
             typeSpeed: 30,
-            backspace: function(curString, curStr) {
-                setTimeout(function()) {
-                    if(self.arrayPos == 1) {
-                    self.stopNum = 3; 
-                }       
-                    else{
-                        self.stopNum = 0; 
-                    }       
-                           }
-            }
+
         });
     });
     
@@ -109,10 +106,21 @@
    
      a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a
      
+<!--
      
-    
+    <h1 class="headline blue-text"> </h1>
 
-    
+    <script>
+    $(function(){
+        $(".headline").typed({
+            strings: ['^2000 Hello! ^1000 My name is Alex Jordache.'],
+            typeSpeed: 30,
+           
+            // 
+        });
+    });
+    </script>
+-->
 
     
         
