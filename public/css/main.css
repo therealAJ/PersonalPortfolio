@@ -63,6 +63,8 @@ body {
     position: relative;
     z-index: 4; !important; 
     font-size: 3.4em; 
+    font-family: 'Cabin', sans-serif;
+    text-decoration-color: dodgerblue;
 }
 
 .sub-headline {
