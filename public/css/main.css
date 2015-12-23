@@ -178,8 +178,9 @@ body {
 
 #summary {
     height: 30%;
-     font-family: 'Cabin', sans-serif;
+    font-family: 'Cabin', sans-serif;
     font-size: 1.6em;
+    padding: 20px;
     
 }
 
