@@ -56,67 +56,67 @@ $(document).scroll(function() {
 var top = $(document).scrollTop();
 console.log(top);
     
-    if (top > 500 && top < 3200 ) {
+    if (top > 1400 && top < 3500 ) {
         $("#html, #css").animate({width:"90%"}, 2000);
     } else {
         $("#html, #css").stop(true).animate({width:"0"}, '2000');
     }
     
-    if (top > 500 && top < 3400) { $("#javascript").animate({width:"60%"}, 2000);
+    if (top > 1400 && top < 3500) { $("#javascript").animate({width:"60%"}, 2000);
     } else {
         $("#javascript").stop(true).animate({width:"0"}, '2000');
     }
-    if (top > 500) {$("#c").animate({width:"30%"}, 2000);
+    if (top > 1400 && top < 3500) {$("#c").animate({width:"30%"}, 2000);
     }
     else {
         $("#c").stop(true).animate({width:"0"}, '2000');
     }
-    if (top > 500 && top < 3500) { $("#cplusplus").animate({width:"20%"}, 2000); 
+    if (top > 1400 && top < 3500) { $("#cplusplus").animate({width:"20%"}, 2000); 
     } else {
         $("#cplusplus").stop(true).animate({width:"0"}, '2000');
     }
     
-    if (top > 500 && top < 3650) { $("#java").animate({width:"80%"}, 2000); }
+    if (top > 1400 && top < 3500) { $("#java").animate({width:"80%"}, 2000); }
     else {
         $("#java").stop(true).animate({width:"0"}, '2000');
     }
     
-     if (top > 500 && top < 3800) { $("#python").animate({width:"40%"}, 2000); }
+     if (top > 1400 && top < 3500) { $("#python").animate({width:"40%"}, 2000); }
     else {
         $("#python").stop(true).animate({width:"0"}, '2000');
     }
     
-     if (top > 500 && top < 4800) { $("#bootstrap").animate({width:"70%"}, 2000); }
+     if (top > 1400 && top < 3500) { $("#bootstrap").animate({width:"70%"}, 2000); }
     else {
         $("#bootstrap").stop(true).animate({width:"0"}, '2000');
     }
     
-     if (top > 500 && top < 4850) { $("#jquery").animate({width:"50%"}, 2000); }
+     if (top > 1400 && top < 3500) { $("#jquery").animate({width:"50%"}, 2000); }
     else {
         $("#jquery").stop(true).animate({width:"0"}, '2000');
     }
     
-     if (top > 500 && top < 4900) { $("#angular").animate({width:"20%"}, 2000); }
+     if (top > 1400 && top < 3500) { $("#angular").animate({width:"20%"}, 2000); }
     else {
         $("#angular").stop(true).animate({width:"0"}, '2000');
     }
     
-     if (top > 500 && top < 4950) { $("#nodejs").animate({width:"15%"}, 2000); }
+     if (top > 1400 && top < 3500) { $("#nodejs").animate({width:"15%"}, 2000); }
     else {
         $("#nodejs").stop(true).animate({width:"0"}, '2000');
     }
     
-     if (top > 500 && top < 5000) { $("#mongodb").animate({width:"15%"}, 2000); }
+     if (top > 1400 && top < 3500) { $("#mongodb").animate({width:"15%"}, 2000); }
     else {
         $("#mongodb").stop(true).animate({width:"0"}, '2000');
     }
     
-     if (top > 500 && top < 5050) { $("#git").animate({width:"70%"}, 2000); }
+     if (top > 1400 && top < 3500) { $("#git").animate({width:"70%"}, 2000); }
     else {
         $("#git").stop(true).animate({width:"0"}, '2000');
     }
     
-     if (top > 500 && top < 5100) { $("#jetbrains").animate({width:"50%"}, 2000); }
+     if (top > 1400 && top < 3500) { $("#jetbrains").animate({width:"50%"}, 2000); }
     else {
         $("#jetbrains").stop(true).animate({width:"0"}, '2000');
     }
