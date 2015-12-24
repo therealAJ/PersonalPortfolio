@@ -201,3 +201,77 @@ body {
     font-size: 1.4em;
 }
 
+/*SKILL BARS*/
+
+ul {
+    list-style-type: none;
+    font-family: 'Cabin', sans-serif;
+    color: #787878;
+    font-size: 1.0em;
+    font-weight: 500;
+    font-style: bold;
+    line-height: 160%;
+    letter-spacing: 5px;
+    color: #0288d1;
+    
+    
+}
+
+li {
+     padding-top: 15px !important; 
+}
+
+
+
+#html {
+    background-color: #0194bd;
+    width:  0%;
+    height: 25px;
+    margin-bottom: 10px;
+   
+}
+
+#css {
+    background-color: #0194bd;
+    width: 0%;
+    height: 25px;
+    margin-bottom: 10px;
+}
+
+#javascript {
+    background-color: #0194bd;
+    width: 0%;
+    height: 25px;
+    margin-bottom: 10px;
+}
+
+#php {
+    background-color: #0194bd;
+    width: 0%;
+    height: 25px;
+    margin-bottom: 10px;
+}
+
+#mysql {
+    background-color: #0194bd;
+    width: 0%;
+    height: 25px;
+    margin-bottom: 10px;
+}
+
+#wordpress {
+    background-color: #0194bd;
+    width: 0%;
+    height: 25px;
+    margin-bottom: 10px;
+}
+
+.skill-text {
+    font-size: 2.2em;
+    font-family: 'Cabin', sans-serif;
+    padding-bottom: 15px;
+    
+}
+
+
+
