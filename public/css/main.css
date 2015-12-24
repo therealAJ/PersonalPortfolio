@@ -206,13 +206,13 @@ body {
 ul {
     list-style-type: none;
     font-family: 'Cabin', sans-serif;
-    color: #787878;
+    color: white;
     font-size: 1.0em;
     font-weight: 500;
     font-style: bold;
     line-height: 160%;
     letter-spacing: 5px;
-    color: #0288d1;
+    
     
     
 }
@@ -245,32 +245,113 @@ li {
     margin-bottom: 10px;
 }
 
-#php {
+#c {
     background-color: #0194bd;
     width: 0%;
     height: 25px;
     margin-bottom: 10px;
 }
 
-#mysql {
+#cplusplus {
     background-color: #0194bd;
     width: 0%;
     height: 25px;
     margin-bottom: 10px;
 }
 
-#wordpress {
+#java {
     background-color: #0194bd;
     width: 0%;
     height: 25px;
     margin-bottom: 10px;
 }
+
+#python {
+    background-color: #0194bd;
+    width: 0%;
+    height: 25px;
+    margin-bottom: 10px;
+}
+
+#bootstrap {
+    background-color: #0194bd;
+    width: 0%;
+    height: 25px;
+    margin-bottom: 10px;
+}
+#jquery {
+    background-color: #0194bd;
+    width: 0%;
+    height: 25px;
+    margin-bottom: 10px;
+}
+#angular {
+    background-color: #0194bd;
+    width: 0%;
+    height: 25px;
+    margin-bottom: 10px;
+}
+#nodejs {
+    background-color: #0194bd;
+    width: 0%;
+    height: 25px;
+    margin-bottom: 10px;
+}
+#mongodb {
+    background-color: #0194bd;
+    width: 0%;
+    height: 25px;
+    margin-bottom: 10px;
+}
+#git {
+    background-color: #0194bd;
+    width: 0%;
+    height: 25px;
+    margin-bottom: 10px;
+}
+#jetbrains {
+    background-color: #0194bd;
+    width: 0%;
+    height: 25px;
+    margin-bottom: 10px;
+}
+#windows {
+    background-color: #0194bd;
+    width: 0%;
+    height: 25px;
+    margin-bottom: 10px;
+}
+#android {
+    background-color: #0194bd;
+    width: 0%;
+    height: 25px;
+    margin-bottom: 10px;
+}
+#linux {
+    background-color: #0194bd;
+    width: 0%;
+    height: 25px;
+    margin-bottom: 10px;
+}
+
+#osx {
+    background-color: #0194bd;
+    width: 0%;
+    height: 25px;
+    margin-bottom: 10px;
+}
+
+
 
 .skill-text {
     font-size: 2.2em;
     font-family: 'Cabin', sans-serif;
     padding-bottom: 15px;
     
+}
+
+.colored {
+    font-size: 2em;
 }
 
 
