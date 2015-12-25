@@ -9,7 +9,35 @@ $(document).ready(function(){
 // Skills Bar
 
 //   // on page load...
-//
+//        // on browser resize...
+
+//    $(window).resize(function() {
+////        moveProgressBar();
+////    });
+////
+
+
+// 
+
+$(window).scroll(function() {
+    var y_scroll_pos = window.pageYOffset;
+    var scroll_pos_test = 2000;             
+	// set to whatever you want it to be
+
+    if(y_scroll_pos > scroll_pos_test) {
+        
+	  $("#counter-html").counter("start");
+      $("#counter-css").counter("start");
+  
+        console.log("used scroll");
+ 
+    }
+	else
+	{
+		
+	}
+ });
+
 //
 //$(window).scroll(function() {
 //    var y_scroll_pos = window.pageYOffset;
@@ -17,18 +45,17 @@ $(document).ready(function(){
 //	// set to whatever you want it to be
 //
 //    if(y_scroll_pos > scroll_pos_test) {
-//	   moveProgressBar();
+//        
+//	
+//      $("#counter-css").counter("start");
 //        console.log("used scroll");
-//        // on browser resize...
-//    $(window).resize(function() {
-//        moveProgressBar();
-//    });
+// 
 //    }
 //	else
 //	{
 //		
 //	}
-//});
+// });
 //   
 //    
 //
@@ -48,6 +75,46 @@ $(document).ready(function(){
 //    }
 
 
+      
+              $(document).ready(function(){ $("#counter-html").counter({
+  autoStart: false,           // true/false, default: true
+  duration: 2000,             // milliseconds, default: 1500
+  countFrom: 0,
+  countTo: 80 ,                // count to this number, default: 0
+  runOnce: true,              // only run the counter once, default: false
+  placeholder: 0 +"%",           // replace the number with this before counting,
+                              // most useful with autoStart: false. default: undefined
+  easing: "easeOutCubic",     // see http://gsgd.co.uk/sandbox/jquery/easing
+
+  onStart: function() {},     // callback on start of the counting
+  onComplete: function() {},  // callback on completion of the counting
+  numberFormatter:            // function used to format the displayed numbers.
+    function(number) {
+      
+      return Math.floor(number) + "%";
+        
+    }
+})});
+
+ $(document).ready(function(){ $("#counter-css").counter({
+  autoStart: false,           // true/false, default: true
+  duration: 2000,             // milliseconds, default: 1500
+  countFrom: 0,
+  countTo: 70 ,                // count to this number, default: 0
+  runOnce: true,              // only run the counter once, default: false
+  placeholder: 0 +"%",           // replace the number with this before counting,
+                              // most useful with autoStart: false. default: undefined
+  easing: "easeOutCubic",     // see http://gsgd.co.uk/sandbox/jquery/easing
+
+  onStart: function() {},     // callback on start of the counting
+  onComplete: function() {},  // callback on completion of the counting
+  numberFormatter:            // function used to format the displayed numbers.
+    function(number) {
+      
+      return Math.floor(number) + "%";
+        
+    }
+})});
 
 
 
