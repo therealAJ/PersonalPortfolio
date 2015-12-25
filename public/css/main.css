@@ -6,6 +6,7 @@ body {
     width: 100%;
     height: 100%; 
      background-color: black;
+    z-index: -100 !important;
 }
 
 .content {
@@ -44,6 +45,7 @@ body {
 }
 .navi a {
   font-size: 1.8em;
+  z-index: 100000 !important;
   
   color: white;
   float: left; 
@@ -355,7 +357,7 @@ li {
     margin-bottom: 10px;
 }
 
-#financial-anaylsis {
+#financial-analysis {
     background-color: #0194bd;
     width: 0%;
     height: 25px;
@@ -391,7 +393,14 @@ li {
 .skill-header {
     
      font-family: 'Cabin', sans-serif;
+   
+}
+
+.default-text {
     
+     font-family: 'Cabin', sans-serif;
+    z-index: 0; !important;
+   
 }
 
 
@@ -400,6 +409,7 @@ li {
     color: white;
     width: 60px;
      font-family: 'Cabin', sans-serif;
+    padding-bottom: 10px;
     
 }
 

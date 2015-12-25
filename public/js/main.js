@@ -19,6 +19,25 @@ $(document).ready(function(){
 
 // 
 
+
+
+// MODAL
+
+ $(document).ready(function() { $('.modal-trigger').leanModal({
+      dismissible: true, // Modal can be dismissed by clicking outside of the modal
+      opacity: .5, // Opacity of modal background
+      in_duration: 300, // Transition in duration
+      out_duration: 200, // Transition out duration
+//      ready: function() { alert('Ready'); }, // Callback for Modal open
+//      complete: function() { alert('Closed'); } // Callback for Modal close
+    }
+)});
+
+
+
+
+
+
 $(window).scroll(function() {
     var y_scroll_pos = window.pageYOffset;
     var scroll_pos_test = 2000;             
@@ -55,7 +74,7 @@ $(window).scroll(function() {
 
 $(window).scroll(function() {
     var y_scroll_pos = window.pageYOffset;
-    var scroll_pos_test = 3000;             
+    var scroll_pos_test = 3200;             
 	// set to whatever you want it to be
 
     if(y_scroll_pos > scroll_pos_test) {
@@ -639,39 +658,39 @@ console.log(top);
         $("#jetbrains").stop(true).animate({width:"0"}, '2000');
     }
     
-     if (top > 500) { $("#windows").animate({width:"90%"}, 2000); }
+     if (top > 3000 && top < 4800) { $("#windows").animate({width:"90%"}, 2000); }
     else {
         $("#windows").stop(true).animate({width:"0"}, '2000');
     }
-    if (top > 500 ) { $("#android").animate({width:"40%"}, 2000); }
+    if (top > 3200 && top < 4800) { $("#android").animate({width:"40%"}, 2000); }
     else {
         $("#android").stop(true).animate({width:"0"}, '2000');
     }
-    if (top > 500 ) { $("#linux").animate({width:"50%"}, 2000); }
+    if (top > 3400 && top < 4800) { $("#linux").animate({width:"50%"}, 2000); }
     else {
         $("#linux").stop(true).animate({width:"0"}, '2000');
     }
-    if (top > 500 ) { $("#osx").animate({width:"40%"}, 2000); }
+    if (top > 3600 && top < 4800 ) { $("#osx").animate({width:"40%"}, 2000); }
     else {
         $("#osx").stop(true).animate({width:"0"}, '2000');
     }
     
-    if (top > 500 ) { $("#mis").animate({width:"50%"}, 2000); }
+    if (top > 3000 && top < 4800) { $("#mis").animate({width:"50%"}, 2000); }
     else {
         $("#mis").stop(true).animate({width:"0"}, '2000');
     }
     
-    if (top > 500 ) { $("#it-life-cycle").animate({width:"70%"}, 2000); }
+    if (top > 3200 && top < 4800) { $("#it-life-cycle").animate({width:"70%"}, 2000); }
     else {
         $("#it-life-cycle").stop(true).animate({width:"0"}, '2000');
     }
     
-    if (top > 500 ) { $("#financial-anaylsis").animate({width:"30%"}, 2000); }
+    if (top > 3400 && top < 4800 ) { $("#financial-analysis").animate({width:"30%"}, 2000); }
     else {
         $("#financial-analysis").stop(true).animate({width:"0"}, '2000');
     }
     
-    if (top > 500 ) { $("#project-management").animate({width:"40%"}, 2000); }
+    if (top > 3600 && top < 4800 ) { $("#project-management").animate({width:"40%"}, 2000); }
     else {
         $("#project-management").stop(true).animate({width:"0"}, '2000');
     }
