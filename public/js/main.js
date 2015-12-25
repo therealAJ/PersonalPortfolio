@@ -138,6 +138,26 @@ console.log(top);
         $("#osx").stop(true).animate({width:"0"}, '2000');
     }
     
+    if (top > 500 ) { $("#mis").animate({width:"50%"}, 2000); }
+    else {
+        $("#mis").stop(true).animate({width:"0"}, '2000');
+    }
+    
+    if (top > 500 ) { $("#it-life-cycle").animate({width:"70%"}, 2000); }
+    else {
+        $("#it-life-cycle").stop(true).animate({width:"0"}, '2000');
+    }
+    
+    if (top > 500 ) { $("#financial-anaylsis").animate({width:"30%"}, 2000); }
+    else {
+        $("#financial-analysis").stop(true).animate({width:"0"}, '2000');
+    }
+    
+    if (top > 500 ) { $("#project-management").animate({width:"40%"}, 2000); }
+    else {
+        $("#project-management").stop(true).animate({width:"0"}, '2000');
+    }
+    
     
     
     

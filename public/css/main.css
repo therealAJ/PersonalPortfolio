@@ -341,6 +341,34 @@ li {
     margin-bottom: 10px;
 }
 
+#mis {
+    background-color: #0194bd;
+    width: 0%;
+    height: 25px;
+    margin-bottom: 10px;
+}
+
+#it-life-cycle {
+    background-color: #0194bd;
+    width: 0%;
+    height: 25px;
+    margin-bottom: 10px;
+}
+
+#financial-anaylsis {
+    background-color: #0194bd;
+    width: 0%;
+    height: 25px;
+    margin-bottom: 10px;
+}
+
+#project-management {
+    background-color: #0194bd;
+    width: 0%;
+    height: 25px;
+    margin-bottom: 10px;
+}
+
 
 
 .skill-text {
@@ -354,5 +382,16 @@ li {
     font-size: 2em;
 }
 
+.enlarge-icon {
+    
+    font-size: 1.8em;
+    
+}
+
+.skill-header {
+    
+     font-family: 'Cabin', sans-serif;
+    
+}
 
 
