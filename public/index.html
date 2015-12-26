@@ -6,7 +6,7 @@
     <title>Alex Jordache</title>
 
     <!--Import materialize.css-->
-    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <link type="text/css" rel="stylesheet" href="css/materialize.css" media="screen,projection" />
     <!--Import Google Icon Font-->
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
     <!-- Import Font-Awesome-->
@@ -79,14 +79,14 @@ onload="javascript:counter()" -->
             <!--Navbar-->
 
 
-            <div class="navbar-fixed">
+            <div class="navbar-fixed" style="z-index=1000">
                 <nav class="navi">
 
                     <a href="#section-1"> Hello</a>
                     <a href="#bio"> Me</a>
                     <a href="#section-3"> Skills & Projects</a>
                     <a href="#toScroll"> Experience</a>
-                    <a href="#section-5"> Interests</a>
+                    <a href="#interests"> Interests</a>
                     <a href="#section-6"> Contact </a>
 
                 </nav>
@@ -170,6 +170,12 @@ onload="javascript:counter()" -->
 
         <!--SKILLS & PROJECTS / SECTION 3 -->
 
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
         <div id="section-3" class='black scrollspy'>
 
             <br>
@@ -561,13 +567,13 @@ onload="javascript:counter()" -->
             <br>
 
         </div>
-        
-        
-        
-        
-        
-        
-        
+
+
+
+
+
+
+
 
         <!--EXPERIENCE / SECTION 4 -->
 
@@ -578,7 +584,7 @@ onload="javascript:counter()" -->
             <br>
             <br>
 
-            <h4 id="toScroll" class="center default-text scrollspy"> Experience</h4>
+            <h4 id="toScroll" class="center default-text scrollspy white-text"> Experience</h4>
 
             <br>
             <br>
@@ -684,7 +690,7 @@ onload="javascript:counter()" -->
                                     <h5 class="blue-text"> Vice President of Innovations / Webmaster</h5>
                                     <h5 class="experience-subheader">Case Competition Club | University of British Columbia | Sauder School of Business | Vancouver, Canada <br> <a class="blue-text"> April 2015 - Present </a> </h5>
 
-                                    <p>As VP Innovations / Webmaster of the Case Competition Club at the Sauder School of Business, I will be responsible for redesigning the Club website as well as to ensure the website's content is delivered effectively. Over the next several months, I plan to integrate both a Case Competition Club app as well as a social blog into the website framework, forming a unique blend of Business and Technology. Other responsibilities include:
+                                    <p>As VP Innovations / Webmaster of the Case Competition Club at the Sauder School of Business, I redesigned the Club website as well as ensured the website's content is delivered effectively. Over the next several months, I plan to integrate both a Case Competition Club app as well as a social blog into the website framework, forming a unique blend of Business and Technology. Other responsibilities include:
                                         <br> • Renovating and operating the club website
                                         <br> • Updating the website throughout the year for upcoming workshops, competitions, and deadlines
                                         <br> • Promoting club events via MailChimp
@@ -772,7 +778,7 @@ onload="javascript:counter()" -->
 
 
                         </li>
-                        
+
                         <br>
 
 
@@ -795,11 +801,11 @@ onload="javascript:counter()" -->
             </div>
 -->
 
-                    
+
 
                 </div>
-                
-                
+
+
 
 
             </div>
@@ -813,12 +819,70 @@ onload="javascript:counter()" -->
 
 
         </div>
-        
+
 
 
         <!--INTERESTS / SECTION 5 -->
 
-        <div id="section-5" class="black scrollspy">
+
+        <br>
+        <br>
+
+        <div id="section-5" class="black ">
+
+
+            <br>
+            <br>
+            <br>
+            <br>
+
+            <h4 id="interests" class="default-text white-text center scrollspy">Take a look at what's important to me... </h4>
+
+            <br>
+            <br>
+            <br>
+
+
+            <div id="interest-slider" class="center-div">
+
+                <div class="slider">
+                    <ul class="slides black">
+                        <li>
+                            <img class="responsive-img interest-img" src="img/ball.jpg">
+                            <div class="caption center-align">
+                                <h3 class="default-text black-text"> Hoops, Hoops, Hoops </h3>
+                                <h5 class="pink-text">My passion for a life-time</h5>
+                            </div>
+                        </li>
+                        <li>
+                            <img class="responsive-img" src="img/hacking1.jpg">
+                            <div class="caption left-align">
+                                <h3 class="default-text"> <i class="fa fa-laptop"></i> & <i class="fa fa-cogs"></i> </h3>
+                                <h5 class="white-text"> I <i class="fa fa-heart"></i> to learn </h5>
+                            </div>
+                        </li>
+                        <li>
+                            <img class="responsive-img" src="img/travel.jpg">
+                            <div class="caption right-align">
+                                <h3 class="default-text black-text">Travelling <i class="fa fa-globe"></i></h3>
+                                <h5 class="default-text white-text">California, Italy, Hawaii, Romania, Germany to name a few places... </h5>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="img/hack3.jpg">
+                            <div class="caption center-align">
+                                <h3 class="default-text pink-text"> I <i class="fa fa-heart"></i> to <i class="fa fa-code"></i></h3>
+                                <h5 class="light grey-text text-lighten-3">From hackathons to free-lance development</h5>
+                            </div>
+
+                        </li>
+                    </ul>
+
+
+                </div>
+
+
+            </div>
 
             <br>
             <br>
@@ -842,9 +906,6 @@ onload="javascript:counter()" -->
             <br>
             <br>
             <br>
-            <br>
-            <br>
-
 
 
         </div>
@@ -894,15 +955,24 @@ onload="javascript:counter()" -->
         <footer class="page-footer black">
             <div class="container">
                 <div class="row">
-                    <div class="col l6 s12">
-                        <h5 class="white-text">Thanks for visiting :) </h5>
+                    <div class="col l6 m6 s6">
+                        <h5 class="white-text default-text">Thanks for visiting :) </h5>
 
                     </div>
-                    
+
+
+                    <div class="col l6 m6 s6">
+
+                        <h5> <a href="#section-1" class="white-text default-text right"> Back to top </a> </h5>
+
+
+                    </div>
+
+
                 </div>
             </div>
             <div class="footer-copyright">
-                <div class="container white-text">
+                <div class="container white-text default-text">
                     Copyright © 2015 Alex Jordache
 
 

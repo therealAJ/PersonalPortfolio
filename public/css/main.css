@@ -34,7 +34,7 @@ body {
 
 
 .navi { 
-  z-index: 100000 !important; 
+  z-index: 1000 !important; 
   width: 100%;
   list-style: none;
   background: black;
@@ -459,8 +459,25 @@ li {
 }
 
 
+.slides {
+    
+    height: 800px !important;    
+    
+    
+}
 
 
+
+#interest-slider {
+    
+    z-index: 0;
+    
+}
+
+.interest-img {
+    z-index: -1 !important;
+    
+}
 
 
 
