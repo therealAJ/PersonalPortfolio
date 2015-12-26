@@ -440,8 +440,15 @@ li {
 .experience-image {
     
     padding-top: 10px;
-    padding-left: 0px
+    padding-left: 0px;
+    z-index: -1;
     
+    
+}
+
+#ccc-image {
+    
+    height: 100px;
     
 }
 
