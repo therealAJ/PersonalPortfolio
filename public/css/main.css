@@ -499,12 +499,25 @@ li {
     
 }
 
-#contact-email {
-    
-    
+#contact-email:hover {
+  
+  color: dodgerblue;
+}
 
 
+#contact-git:hover {
+  
+  color: dodgerblue;
+}
 
+#contact-linkedin:hover {
+  
+  color: dodgerblue;
+}
+
+#contact-twitter:hover {
+  
+  color: dodgerblue;
 }
 
 .pad-icon {
