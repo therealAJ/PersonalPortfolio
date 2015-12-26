@@ -104,13 +104,17 @@ body {
 }
 
 
+/*backup-url: https://www.script-tutorials.com/demos/360/images/stars.png*/
+
 .stars {
-  background:#000 url(https://www.script-tutorials.com/demos/360/images/stars.png) repeat top center;
+  background:#000 url(http://res.cloudinary.com/dz9yrk0yr/image/upload/v1451159541/stars_aydndz.png) repeat top center;
   z-index:0;
 }
 
+/*backup-url: http://www.script-tutorials.com/demos/360/images/twinkling.png */
+
 .twinkling{
-  background:transparent url(https://www.script-tutorials.com/demos/360/images/twinkling.png)  repeat top center;
+  background:transparent url(http://res.cloudinary.com/dz9yrk0yr/image/upload/v1451159541/twinkling_yvha6w.png)  repeat top center;
 
   z-index:0;
 
@@ -516,6 +520,11 @@ li {
     padding-top: 10px
     
     
+}
+
+.standard-text {
+    
+    font-family: Georgia;
 }
 
 
