@@ -414,6 +414,12 @@ li {
 }
 
 
+#experience-list {
+    z-index: 0;
+    padding-right: 10px;
+}
+
+
 .experience-graphics {
     
     

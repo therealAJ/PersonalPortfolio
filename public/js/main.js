@@ -6,6 +6,15 @@ $(document).ready(function(){
   });
 
 
+//
+// var options = [
+//     
+//    {selector: '#experience-lit', offset: 900, callback: 'Materialize.showStaggeredList("#experience-list")' },
+//
+//  ];
+//  Materialize.scrollFire(options);
+      
+
 // Skills Bar
 
 //   // on page load...
