@@ -480,6 +480,37 @@ li {
 }
 
 
+#contact-me {
+    
+    height: 450px;
+    
+}
+
+.contact-container {
+    
+    height: 50px;
+    width: 480px;
+     margin: 0 auto;
+    
+}
+
+#contact-email {
+    
+    
+
+
+
+}
+
+.pad-icon {
+    
+    font-size: 2.6em;
+    padding-top: 5px;
+    padding-left: 20px;
+    
+}
+
+
 
 
 
