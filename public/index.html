@@ -7,6 +7,8 @@
 
     <!--Import materialize.css-->
     <link type="text/css" rel="stylesheet" href="css/materialize.css" media="screen,projection" />
+    <!--Import Animate.css-->
+    <link rel="stylesheet" href="css/animate.css">
     <!--Import Google Icon Font-->
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
     <!-- Import Font-Awesome-->
@@ -55,6 +57,37 @@ onload="javascript:counter()" -->
     <script type="text/javascript" src="js/jquery.easing.compatibility.js"></script>
     <script type="text/javascript" src="js/counter.js"></script>
     <script type="text/javascript" src="js/counter.min.js"></script>
+    
+    <!--WOW.js-->
+    <script src="js/wow.min.js"></script>
+    <script>
+    
+         wow = new WOW(
+                      {
+                      boxClass:     'wow',      // default
+                      animateClass: 'animated', // default
+                      offset:       500,          // default
+                      mobile:       true,       // default
+                      live:         true        // default
+                    }
+                    )
+                    wow.init();
+        
+         wow1 = new WOW(
+                      {
+                      boxClass:     'wow1',      // default
+                      animateClass: 'animated', // default
+                      offset:       500,          // default
+                      mobile:       true,       // default
+                      live:         true        // default
+                    }
+                    )
+         
+                    wow.init();
+                    wow1.init();
+                    
+        
+    </script>
 
 
 
@@ -137,12 +170,12 @@ onload="javascript:counter()" -->
                         <br>
 
                         <div class="center">
-                            <img class="circular responsive-img" src="img/me1.png" alt="" />
+                            <img class="circular responsive-img wow fadeIn" src="img/me1.png" alt="" />
 
                             <br>
                             <br>
 
-                            <div id='icons' class="center">
+                            <div id='icons' class="center wow fadeInRight">
 
                                 <a class='icons' href="mailto:alex.jordache@alumini.ubc.ca"><i class="fa fa-envelope fa-4x">&nbsp&nbsp</i></a>
                                 <a class='icons' href="https://ca.linkedin.com/in/ajordache"><i class="fa fa-linkedin fa-4x"> &nbsp</i></a>
@@ -403,7 +436,7 @@ onload="javascript:counter()" -->
                 <!--Project #1: SportsHack-->
 
 
-                <div class="">
+                <div class="wow fadeInUp" data-wow-duration="1.2s">
 
                     <h5 class="skill-header white-text center btn light-blue darken-2 " style="text-transform: none"> myCFL  
                     </h5>
@@ -462,7 +495,7 @@ onload="javascript:counter()" -->
 
                 <!--Project #2: Mind the Gap-->
 
-                <div class="">
+                <div class="wow fadeInUp" data-wow-duration="1.2s">
 
                     <h5 class="skill-header white-text center btn light-blue darken-2 " style="text-transform: none"> Mind the Gap   
                     </h5>
@@ -519,7 +552,7 @@ onload="javascript:counter()" -->
                 <!--Project #3: My Website-->
 
 
-                <div class="">
+                <div class="wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.2s">
 
                     <h5 class="skill-header white-text center btn light-blue darken-2 " style="text-transform: none"> ePortfolio   
                     </h5>
@@ -611,7 +644,7 @@ onload="javascript:counter()" -->
                         <!--Experience Position 1-->
 
 
-                        <li>
+                        <li class="wow1 fadeInLeft">
 
 
                             <div class="row">
@@ -640,7 +673,7 @@ onload="javascript:counter()" -->
 
                         <!--Experience Position 2-->
 
-                        <li>
+                        <li class="wow1 fadeInLeft">
 
                             <div class="row">
 
@@ -679,7 +712,7 @@ onload="javascript:counter()" -->
 
                         <!--Experience Position 3-->
 
-                        <li>
+                        <li class="wow1 fadeInLeft">
 
 
                             <div class="row">
@@ -716,7 +749,7 @@ onload="javascript:counter()" -->
                         <!--Experience Position 4-->
 
 
-                        <li>
+                        <li class="wow1 fadeInLeft">
 
                             <div class="row">
 
@@ -751,7 +784,7 @@ onload="javascript:counter()" -->
 
                         <!--Experience Position #5-->
 
-                        <li>
+                        <li class="wow1 fadeInLeft">
 
 
                             <div class="row">
@@ -920,7 +953,7 @@ onload="javascript:counter()" -->
 
         <!-- CONTACT / SECTION 6 -->
 
-        <div id="section-6" class="light-blue darken-2">
+        <div id="section-6" class="light-blue darken-2 wow fadeIn" data-wow-duration="1.2s" >
 
             <br>
             <br>
