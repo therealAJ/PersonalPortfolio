@@ -1,3 +1,3 @@
 # PersonalPortfolio
  *******************************************************************************************************************************
- Site Under Construction :)
+Site is now up!! http://alexjordache.me
